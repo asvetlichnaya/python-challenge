@@ -35,7 +35,7 @@ def ends_with_suffix(value: str, suffix: str):
     if value.strip().lower().endswith(suffix.lower()):
         return True
     else:
-        print('Email address must end with @ubs.com')
+        print('Email address must end with ', suffix)
         return False
 
 
@@ -61,6 +61,6 @@ while contains_digits(user_name) or contains_more_than_n_symbols(user_name, 15):
 
 user_email = input('Please input an email address: ')
 while not starts_with_prefix(user_email, user_name) or not is_in_lowercase(user_email) or \
-         not ends_with_suffix(user_email, '@ubs.com') or not contains_underscore(user_email) or \
+         not ends_with_suffix(user_email, '@gmail.com') or not contains_underscore(user_email) or \
          contains_whitespace(user_email):
     user_email = input('Please input an email address: ')
