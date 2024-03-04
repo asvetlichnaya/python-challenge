@@ -1,4 +1,4 @@
-# Assignment2, task3
+# Assignment2, Task3
 
 # Write a function to check duplicate letters in words. It must accept strings i.e. a sentence.
 # The function should return True if any of the words has duplicate letters else return False.

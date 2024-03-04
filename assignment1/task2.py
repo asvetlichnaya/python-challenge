@@ -1,6 +1,4 @@
-import string
-
-
+# Assignment1, Task2
 def contains_digits(value: str):
     for i in value:
         if i.isdigit():

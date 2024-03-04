@@ -1,4 +1,4 @@
-# Assignment2, task1
+# Assignment2, Task1
 
 # Write a program that as input accepts a string typed on keyboard and as output
 # it will print this string reversed
