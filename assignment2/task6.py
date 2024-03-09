@@ -6,12 +6,12 @@ def count_vowels_in_csv_file(text: str):
 
     count_of_vowels = {}
     x = {}
-    for j in split_string:
-        list_of_vowels = re.findall("[aeiouy]", j)
+    for word in split_string:
+        list_of_vowels = re.findall("[aeiouy]", word)
         x = {}
-        for i in list_of_vowels:
-            x[i] = list_of_vowels.count(i)
-            count_of_vowels[j] = x
+        for vowel in list_of_vowels:
+            x[vowel] = list_of_vowels.count(vowel)
+            count_of_vowels[word] = x
     return str(count_of_vowels)
 
 
